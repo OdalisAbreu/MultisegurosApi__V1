@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+button.block.pl-3.pr-4.py-2.border-l-4.border-transparent.text-base.font-medium.text-gray-600.hover\:text-gray-800.hover\:bg-gray-50.hover\:border-gray-300.focus\:outline-none.focus\:text-gray-800.focus\:bg-gray-50.focus\:border-gray-300.transition.w-full.text-left {
+    padding: 0 !important;
+    border: none;
+    background: transparent;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.primary-color-500 {
+    background-color: #2f8dc3 !important;
+    border-color: #0077BB !important;
+}
+.primary-color-hover-500:hover {
+    background-color: #2f8dc3 !important;
+    border-color: #0077BB !important;
+}
+.primary-color-600 {
+    background-color: #0077BB !important;
+}
+.primary-color-600:hover {
+    background-color: #0077BB !important;
+    border-color: #0077BB !important;
+}
+.primary-color-700 {
+    background-color: #0077BB !important;
+    border-color: #0077BB !important;
+}
+.primary-color-700:hover {
+    background-color: #0077BB !important;
+    border-color: #0077BB !important;
+}
+.focus-primary-color {
+    border-color: #0077BB !important;
+}
+.dpb-custom {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 1rem;
+}
+.efect-blur {
+    background-color: rgba(255, 255, 255, .25) !important;
+    border-radius: 5px;
+    backdrop-filter: blur(50px);
+}
+div#headlessui-menu-items-2 a:hover {
+    border-color: #0077BB !important;
+    background-color: transparent !important;
+}
